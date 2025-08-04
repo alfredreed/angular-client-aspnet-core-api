@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "EvKK497RCr5FbJ+qji9qz3aAkyI6ONS0405+ZSZumUs=",
+  "Source": "Angular.Crud.Web.backend",
+  "BasePath": "_content/Angular.Crud.Web.backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

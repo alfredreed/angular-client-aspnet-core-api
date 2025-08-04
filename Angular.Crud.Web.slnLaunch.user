@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Angular.Crud.Web.backend\\Angular.Crud.Web.backend.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "angular.crud.web.frontend\\angular.crud.web.frontend.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:57929",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\ReedInc\\Desktop\\Omni\\Kardinal\\Repo\\github_repo\\angular-client-aspnet-core-api\\Angular.Crud.Web.backend\\..\\angular.crud.web.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular.Crud.Web.backend", "Angular.Crud.Web.backend\Angular.Crud.Web.backend.csproj", "{AF6058C0-4F01-1276-3AE5-12DB726D7CF7}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angular.crud.web.frontend", "angular.crud.web.frontend\angular.crud.web.frontend.esproj", "{4D43B662-F25C-3F2C-581A-769539D738C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF6058C0-4F01-1276-3AE5-12DB726D7CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6058C0-4F01-1276-3AE5-12DB726D7CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6058C0-4F01-1276-3AE5-12DB726D7CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6058C0-4F01-1276-3AE5-12DB726D7CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D43B662-F25C-3F2C-581A-769539D738C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D43B662-F25C-3F2C-581A-769539D738C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D43B662-F25C-3F2C-581A-769539D738C2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4D43B662-F25C-3F2C-581A-769539D738C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D43B662-F25C-3F2C-581A-769539D738C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D43B662-F25C-3F2C-581A-769539D738C2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E1EEF46-8702-4682-B023-2015D873814C}
+	EndGlobalSection
+EndGlobal
