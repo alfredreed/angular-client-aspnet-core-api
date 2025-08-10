@@ -1,0 +1,32 @@
+<div class="header-Container">
+  <div class="header-Left">
+    <div class="button-Container">
+      <nav>
+        <input id="col-Toggle" type="checkbox" title="Collapse Button" />
+        <label for="col-Toggle" class="hamburger-icon">
+          <span class="ham-1"></span>
+          <span class="ham-2"></span>
+          <span class="ham-3"></span>
+        </label>
+        <div class="ham-Menu">
+          <div class="hamMenu-Item"><a routerLink="/">Home</a><br /></div>
+          <div class="hamMenu-Item"><a routerLink="/inventory">Inventory</a><br /></div>
+          <div class="hamMenu-Item"><a href="#">Notifications</a><br /></div>
+        </div>
+      </nav>
+    </div>
+    <div class="logo-Container">
+      <a routerLink="/"><h1 class="logo-Heading">{{ title() }}</h1></a>
+    </div>
+    <div class="pageLink">
+      <a routerLink="/inventory">Inventory</a>
+    </div>
+    <div class="pageLink">
+      <a routerLink="/contact">Contact</a>
+    </div>
+
+  </div>
+  <div class="header-Right">
+
+  </div>
+</div>

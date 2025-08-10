@@ -1,0 +1,155 @@
+/* These styles are encapsulated to this
+   component to make style global
+   add info to the style.css file*/
+
+.header-Right {
+  display: block;
+}
+
+
+
+.logo-Heading {
+  color: #ffba00;
+  font-size: 20px;
+}
+
+.logo-Container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  height: 4rem;
+  max-width: 110px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  background: #171717;
+  padding-left: 2px;
+  padding-right: 3px;
+}
+
+/* Accordion Items */
+.hamMenu-Item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+  .hamMenu-Item:hover {
+    background-color: #eee;
+  }
+
+/* Hidden menu */
+.ham-Menu {
+  /* display: none; */
+  position: absolute;
+  top: 80px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 5px;
+  left: -40em;
+  -webkit-transition: left 0.3s ease;
+  -o-transition: left 0.3s ease;
+  transition: left 0.7s ease;
+}
+
+/* Hamburger Icon */
+.hamburger-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  margin-top: 9px;
+}
+
+  .hamburger-icon span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background-color: #333;
+    transition: 0.3s;
+  }
+
+/* Transform hamburger to "X" */
+#col-Toggle:checked + .hamburger-icon .ham-1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#col-Toggle:checked + .hamburger-icon .ham-2 {
+  opacity: 0;
+}
+
+#col-Toggle:checked + .hamburger-icon .ham-3 {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Display menu when checkbox is checked*/
+#col-Toggle:checked ~ .ham-Menu {
+  /* display: block; */
+  left: 0px;
+}
+
+/* Hide checkbox */
+#col-Toggle {
+  display: none;
+}
+
+.button-Container {
+  display: flex;
+  height: 100%;
+  width: 50px;
+}
+
+.pageLink {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  height: 34px;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.header-Left {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.header-Container {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  /*padding: 10px 20px;*/
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #0b0a0a;
+}
+
+@media only screen and (min-width: 151px) {
+  .ham-Menu {
+    width: 100%;
+    height: 50em;
+  }
+}
+
+@media only screen and (min-width: 603px) {
+  .header-Right {
+    display: block;
+  }
+
+  .ham_Menu {
+    display: none;
+  }
+
+  .button-Container {
+    display: none
+  }
+}

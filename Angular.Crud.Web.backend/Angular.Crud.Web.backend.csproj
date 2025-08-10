@@ -7,6 +7,7 @@
     <SpaRoot>..\angular.crud.web.client</SpaRoot>
     <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:57929</SpaProxyServerUrl>
+    <UserSecretsId>b56e060f-cfe3-4c47-a778-7cad0aef97f0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

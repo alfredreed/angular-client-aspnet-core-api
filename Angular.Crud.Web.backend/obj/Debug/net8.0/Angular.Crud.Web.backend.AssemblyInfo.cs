@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("b56e060f-cfe3-4c47-a778-7cad0aef97f0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Angular.Crud.Web.backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da853da5264e629ba8bfd2cca833b75742c5e0ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eb63386d1fd6a8d48c86d01a2ffc771296559a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Angular.Crud.Web.backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Angular.Crud.Web.backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
