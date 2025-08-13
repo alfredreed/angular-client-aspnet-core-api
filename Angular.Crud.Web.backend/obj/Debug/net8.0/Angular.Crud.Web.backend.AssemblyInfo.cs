@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Angular.Crud.Web.backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eb63386d1fd6a8d48c86d01a2ffc771296559a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fccd29aee9abc7cfb33b62c95a36514d399c5746")]
 [assembly: System.Reflection.AssemblyProductAttribute("Angular.Crud.Web.backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Angular.Crud.Web.backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

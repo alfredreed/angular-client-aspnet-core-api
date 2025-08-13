@@ -1,6 +1,53 @@
 /* These styles are encapsulated to this
    component to make style global
    add info to the style.css file*/
+.btnImg-Container {
+position: relative;
+background: inherit;
+fill: #000;
+cursor: pointer;
+border: none;
+}
+
+.searchInput-Container h3 {
+  color: #000;
+  font-size: 1em;
+}
+
+.searchInput-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.searchInput:focus {
+  background: #fff;
+  color: #000;
+}
+
+.searchInput::placeholder {
+  color: #000;
+}
+
+.searchInput {
+  width: 190px;
+  margin-right: -30px;
+  border: solid 2px #000;
+  font-size: 12px;
+  padding-right: 5px;
+  border-radius: 25px 25px 25px 25px;
+  height: 25px;
+}
+
+.search-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  margin-left: 5px;
+}
 
 .header-Right {
   display: block;
@@ -18,7 +65,7 @@
   align-items: center;
   justify-items: center;
   text-align: center;
-  height: 4rem;
+  /*height: 4rem;*/
   max-width: 110px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 10px;
@@ -101,13 +148,17 @@
   width: 50px;
 }
 
+.pageLink a:hover {
+    color: #E5A00D;
+}
+
 .pageLink {
   display: flex;
   align-items: center;
   margin: 10px;
-  height: 34px;
+  height: 50px;
   border-right: 2px solid rgba(0, 0, 0, 0.2);
-  padding: 5px;
+  padding-right: 15px;
 }
 
 .header-Left {
