@@ -1,0 +1,55 @@
+<h3>Inventory Info</h3>
+<form class="form-Container" novalidate>
+  <div class="input-Container">
+    <span>ProductId:</span>
+    <input type="text" name="productId" title="productId" [(ngModel)]="inventoryData.productId" />
+  </div>
+  <div class="input-Container">
+    <span>Name:</span>
+    <input type="text" name="title" title="title" [(ngModel)]="inventoryData.comicTitle" />
+  </div>
+  <div class="input-Container">
+    <span>Price:</span>
+    <input type="text" name="price" title="price" [(ngModel)]="inventoryData.comicPrice" />
+  </div>
+  <div class="input-Container">
+    <span>Image Path:</span>
+    <input type="text" name="imagePath" title="path" [(ngModel)]="inventoryData.imagePath" />
+  </div>
+  <div class="input-Container">
+    <span>Quantity:</span>
+    <input type="text" name="stock" title="stock" [(ngModel)]="inventoryData.quantity" />
+  </div>
+  <div class="btn-Container">
+    <app-button label="Submit" />
+  </div>
+</form>
+
+<h5>Inventory Details</h5>
+<div class="tbl-Container">
+  <table class="tbl tbl-striped">
+    <thead>
+      <tr>
+        <th scope="col">Product ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">Price</th>
+        <th scope="col">Image Path</th>
+        <th scope="col">Quantity</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let inventory of inventoryDetails">
+        <th scope="row">{{inventory.ProductId}}</th>
+        <td>{{inventory.ComicTitle}}</td>
+        <td>{{inventory.ComicPrice}}</td>
+        <td>{{inventory.ImagePath}}</td>
+        <td>{{inventory.Quantity}}</td>
+        <td>
+          <button type="button" class="edit-Btn" >Edit</button>
+          <button type="button" class="del-Btn" >Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

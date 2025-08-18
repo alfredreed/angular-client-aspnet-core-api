@@ -12,7 +12,7 @@ namespace Angular.Crud.Web.backend.Controllers
     [Route("[controller]")]
     public class InventoryController : ControllerBase
     {
-        private readonly InventoryHelper _inventoryHelper;
+        private InventoryHelper _inventoryHelper;
         public InventoryController(InventoryHelper inventoryHelper) 
         {
             _inventoryHelper = inventoryHelper;
@@ -21,11 +21,11 @@ namespace Angular.Crud.Web.backend.Controllers
         [HttpGet]
         public ActionResult GetInventoryData() 
         {
-            List<InventoryModel> result = new List<InventoryModel>();
+            List<InventoryModel> response = new List<InventoryModel>();
 
-            result = _inventoryHelper.GetInventoryData();
+            response = _inventoryHelper.GetInventoryData();
 
-            return Ok();
+            return Ok(JsonSerializer.Serialize(response));
         }
     }
 }
